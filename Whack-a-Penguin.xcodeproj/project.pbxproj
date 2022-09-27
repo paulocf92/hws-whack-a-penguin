@@ -9,24 +9,26 @@
 /* Begin PBXBuildFile section */
 		AC6EC10828E372AE00AE0E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EC10728E372AE00AE0E38 /* AppDelegate.swift */; };
 		AC6EC10A28E372AE00AE0E38 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC6EC10928E372AE00AE0E38 /* GameScene.sks */; };
-		AC6EC10C28E372AE00AE0E38 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC6EC10B28E372AE00AE0E38 /* Actions.sks */; };
 		AC6EC10E28E372AE00AE0E38 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EC10D28E372AE00AE0E38 /* GameScene.swift */; };
 		AC6EC11028E372AE00AE0E38 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EC10F28E372AE00AE0E38 /* GameViewController.swift */; };
 		AC6EC11328E372AE00AE0E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6EC11128E372AE00AE0E38 /* Main.storyboard */; };
 		AC6EC11528E372AF00AE0E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6EC11428E372AF00AE0E38 /* Assets.xcassets */; };
 		AC6EC11828E372AF00AE0E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6EC11628E372AF00AE0E38 /* LaunchScreen.storyboard */; };
+		AC6EC12528E3756D00AE0E38 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC6EC12428E3756D00AE0E38 /* whack.caf */; };
+		AC6EC12728E3757A00AE0E38 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC6EC12628E3757A00AE0E38 /* whackBad.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC6EC10428E372AE00AE0E38 /* Whack-a-Penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-Penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6EC10728E372AE00AE0E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC6EC10928E372AE00AE0E38 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		AC6EC10B28E372AE00AE0E38 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		AC6EC10D28E372AE00AE0E38 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AC6EC10F28E372AE00AE0E38 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AC6EC11228E372AE00AE0E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC6EC11428E372AF00AE0E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6EC11728E372AF00AE0E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC6EC12428E3756D00AE0E38 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = whack.caf; path = "../../HackingWithSwift/Classic/project14-files/Content/whack.caf"; sourceTree = "<group>"; };
+		AC6EC12628E3757A00AE0E38 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = whackBad.caf; path = "../../HackingWithSwift/Classic/project14-files/Content/whackBad.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +63,13 @@
 			children = (
 				AC6EC10728E372AE00AE0E38 /* AppDelegate.swift */,
 				AC6EC10928E372AE00AE0E38 /* GameScene.sks */,
-				AC6EC10B28E372AE00AE0E38 /* Actions.sks */,
 				AC6EC10D28E372AE00AE0E38 /* GameScene.swift */,
 				AC6EC10F28E372AE00AE0E38 /* GameViewController.swift */,
 				AC6EC11128E372AE00AE0E38 /* Main.storyboard */,
 				AC6EC11428E372AF00AE0E38 /* Assets.xcassets */,
 				AC6EC11628E372AF00AE0E38 /* LaunchScreen.storyboard */,
+				AC6EC12428E3756D00AE0E38 /* whack.caf */,
+				AC6EC12628E3757A00AE0E38 /* whackBad.caf */,
 			);
 			path = "Whack-a-Penguin";
 			sourceTree = "<group>";
@@ -130,10 +133,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC6EC11328E372AE00AE0E38 /* Main.storyboard in Resources */,
+				AC6EC12528E3756D00AE0E38 /* whack.caf in Resources */,
 				AC6EC10A28E372AE00AE0E38 /* GameScene.sks in Resources */,
 				AC6EC11528E372AF00AE0E38 /* Assets.xcassets in Resources */,
 				AC6EC11828E372AF00AE0E38 /* LaunchScreen.storyboard in Resources */,
-				AC6EC10C28E372AE00AE0E38 /* Actions.sks in Resources */,
+				AC6EC12728E3757A00AE0E38 /* whackBad.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +303,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,9 +312,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulofilho.Whack-a-Penguin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -327,8 +334,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,9 +343,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulofilho.Whack-a-Penguin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
